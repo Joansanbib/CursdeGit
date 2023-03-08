@@ -1,0 +1,14 @@
+git init - Creació del repositori
+
+git status -s Per veure l'estat dels arxius, si estan baix seguiment o no {
+?? L'arxiu no està en seguiment
+A  L'arxiu està en seguiment
+M  Canvis no guardats una vegada fet el commit
+}
+git log --oneline Per veure els commits amb el seu nom
+
+git add 'nomfitxer' Per afegir a seguiment un arxiu independent
+git add . Per afegir tots els arxius
+git commit -m"NomScreenshot" Còpia de l'estat actual del document al repositori (fer un add sempre abans d'afegir al commit)
+git commit -am"NomScreenshot" Però no cal fer un add prèviament
+git reset --hard 'codi' Per restaurar el codi a un commit, perdent els següents commits
