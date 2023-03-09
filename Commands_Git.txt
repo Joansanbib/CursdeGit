@@ -12,3 +12,17 @@ git add . Per afegir tots els arxius
 git commit -m"NomScreenshot" Còpia de l'estat actual del document al repositori (fer un add sempre abans d'afegir al commit)
 git commit -am"NomScreenshot" Però no cal fer un add prèviament
 git reset --hard 'codi' Per restaurar el codi a un commit, perdent els següents commits
+
+______________________________________________
+Modificar info d'un commit:
+git commit --amend per entrar a la consola vim
+:i per modificar 
+esc per tornar a la línia de comandes
+:wq
+_________________________________________________
+git remote add origin https://github.com/Joansanbib/CursoGit.git per crear la ruta al repo
+git push origin master Afegeix els fitxers a la branca corresponent del repo
+git remote -v
+git remote remove origin
+git pull Per aplicar cambis de remot a local (cambis fets a GitHub)
+
